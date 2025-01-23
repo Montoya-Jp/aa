@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .écran {
+            height: 100vh;
+        }
+
+        #fond {
+            background-image: url(./téléchargement.png);
+            background-size:
+                100vh 100vw;
+        }
+
+        .menu {
+            background-color: aqua;
+            height: 60px;
+            padding-left: 100px;
+            padding-top: 30px;
+            line-height: 10px;
+            position: fixed;
+            width: 100%;
+            float: left;
+            justify-content: space-around;
+        }
+
+        .photo1 {
+            line-height: 100vh;
+            background-color: blueviolet;
+            height: 100%;
+            width: 100%;
+            transition: background-color, 2s
+        }
+
+        .photo1:hover {
+            background-color: rgb(255, 230, 0);
+        }
+
+        .txt001 {
+            background-color: chocolate;
+            height: 400px;
+            width: 300px;
+            border: thick double blue;
+
+        }
+
+        .photo2 {
+            background-color: rgb(27, 255, 6);
+            border: thick double blue;
+            height: 400px;
+            width: 400px;
+        }
+
+        .p2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .txt2 {
+            background-color: chocolate;
+            height: 400px;
+            width: 400px;
+            border: thick double blue;
+
+        }
+
+        .photo3 {
+            border: thick double blue;
+            height: 400px;
+            width: 400px;
+            background-image: url(./zis30.jpg);
+            background-size: 400px 400px;
+            background: cover;
+            transition: background-image, 2s;
+        }
+
+        .photo3:hover {
+            background-image: url(./téléchargement.jpg);
+        }
+
+        .p3 {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+
+<body id="fond">
+
+    <head class="écran">
+        <div class="menu">
+            <div>
+                <button>Accueil</button>
+
+                <a href="shéma.html"><button>Shéma</button></a>
+            </div>
+        </div>
+        <div class="photo1">
+            photo a
+
+        </div>
+    </head>
+    <div class="p2">
+        <div class="txt001">
+            txt sur le corps
+        </div>
+        <div class="photo2">
+            photo2
+
+        </div>
+    </div>
+    <div class="p3">
+        <div class="txt2">
+            txt sur le corps2
+        </div>
+        <div class="photo3">
+            photo3
+        </div>
+    </div>
+</body>
+
+</html>
